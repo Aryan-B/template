@@ -1,0 +1,185 @@
+.section1 {
+  width: 100%;
+  /* height: 90vh; */
+  background: url(../assets/bg1.jpg) no-repeat center center/cover;
+  background-attachment: fixed;
+}
+
+.section2 {
+  width: 100%;
+  /* height: 60vh; */
+  background: url(../assets/bg2.jpg) no-repeat center center/cover;
+  background-attachment: fixed;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.overlay-heading {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.overlay-paragraph {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.column {
+  width: 30%;
+  text-align: left;
+}
+
+.overlay {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  width: 100%;
+  height: 100%;
+  padding: 8rem 10rem;
+}
+
+.content {
+  width: 100%;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  padding: 8rem 10rem;
+  width: 100%;
+}
+
+.content-heading {
+  font-size: 2.5rem;
+  color: #000;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.content-paragraph {
+  font-size: 1rem;
+  color: #000;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.content-button {
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: 4px solid #000;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+
+.content-button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 4px solid #000;
+  transition: all 0.1s linear;
+}
+
+.logos {
+  width: 100%;
+  font-size: 4rem;
+  color: lightgray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  transition: all 0.1s linear;
+}
+
+.logos > * :hover {
+  cursor: pointer;
+  color: white;
+  transition: all 0.1s linear;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  gap: 2rem;
+}
+
+.card-itm {
+  width: 40%;
+  height: 20%;
+  transition: all 0.1s linear;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.card-des {
+  margin-top: 1rem;
+}
+
+.card-itm:hover .card-image {
+  opacity: 1;
+  transition: all 0.1s linear;
+}
+
+footer {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+footer p {
+  margin: 0;
+}
+
+.band {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 40, 255, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.band-button {
+  margin: 10px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.1s linear;
+  border: 0px;
+}
+
+.band-button:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.1s linear;
+}
